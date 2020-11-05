@@ -34,6 +34,9 @@ const routes = [
         component: mypage,
         name: 'mypage',
         children: [{
+            path: '',
+            component: quartz
+        }, {
             path: '/quartz',
             component: quartz
         }]

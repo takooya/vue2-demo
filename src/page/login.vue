@@ -60,15 +60,14 @@ export default {
         async submitForm (formName) {
             this.$refs[formName].validate(async (valid) => {
                 if (valid) {
-                    console.info('登陆前')
-                    // const res = await login({user_name: this.loginForm.username, password: this.loginForm.password})
+                    //todo const res = await login({user_name: this.loginForm.username, password: this.loginForm.password})
                     let res = {status: 1}
-                    console.info('登陆后', res)
                     if (res.status == 1) {
                         this.$message({
                             type: 'success',
                             message: '登录成功'
                         });
+                        //todo
                         this.$router.push('mypage')
                         // this.$router.push('manage')
                     } else {

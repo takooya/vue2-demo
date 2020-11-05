@@ -4,6 +4,11 @@
 
 > https://github.com/bailicangdu/vue2-manage
 
+> 现存问题：
+29 packages are looking for funding
+   run `npm fund` for details
+
+
 > 下面所有的介绍都是原项目的
 
 # 说明
